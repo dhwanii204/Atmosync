@@ -12,4 +12,4 @@ SELECT
     (p.price_per_kg * 1000) AS estimated_container_value
 FROM {{ ref('stg_telemetry') }} t
 LEFT JOIN commodity_prices p
-ON t.product = p.product;
+ON t.product = p.product
