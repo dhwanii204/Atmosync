@@ -11,7 +11,7 @@ producer = KafkaProducer(
     value_serializer=lambda x: json.dumps(x).encode("utf-8")
 )
 
-topic_name = "fruit_telemetry"
+topic_name = "telemetry-data"
 
 
 # Container details

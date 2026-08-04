@@ -3,7 +3,7 @@ import json
 import psycopg2
 
 
-TOPIC_NAME = "fruit_telemetry"
+TOPIC_NAME = "telemetry-data"
 
 
 # PostgreSQL connection
